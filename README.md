@@ -73,7 +73,8 @@ Open a pull request with your changes here: https://github.com/dolphin-emu/dolph
 ```
 - Customisation
 ```
-**Where can I find User Styles? How do I use one?**
+**Where can I find User Styles? How do I enable one?**
+
 Styles are advertised on this Dolphin forum thread: https://forums.dolphin-emu.org/Thread-user-style-thread. Place style files in `[your user documents folder]/Dolphin Emulator/User/Styles`. To switch to a user style, navigate to `Config` > `Interface`, tick `Use Custom User Style`, and select the style with the `User Style` dropdown.
 
 **How do you edit settings on a per-game basis?**
