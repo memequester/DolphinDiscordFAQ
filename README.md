@@ -15,48 +15,59 @@ You may be using an outdated version of Dolphin. Update to the latest beta or de
 Compatibility
 ```
 **Does Wiimmfi work?**
+
 Yes, but some games will require a real NAND backup from your Wii and your Wii's MAC Address. vWii NANDs from a Wii U *may* work. NANDs generated with third-party tools do  *not* work for many games. Check the patching and configuration instructions for your game.
 
 **Does Riivolution work?** 
+
 As of version 5.0-15407, Dolphin supports Riivolution patches. Extract and move your patches to `[your user documents folder]\Dolphin Emulator\Load\Riivolution`. In Dolphin, right-click on your game in the game list and click `Start with Riivolution Patches...`.
 󠀀󠀀󠀀󠀀
 ```
 Controllers
 ```
 **Where do I find the directory for controller configurations?** 
+
 `[your user documents folder]/Dolphin Emulator/Config/Profiles/Wiimote` _or_ `[your user documents folder]/Dolphin Emulator/Config/Profiles/GCPad`
 
 **How do I stop emulated Wii remote not being able to reach the edges of my screen?** 
+
 The Wii remote must be configured (emulated controls of course) to use the whole screen space in Dolphin. To change the screen space, change the Total Yaw and Total Pitch in the controller settings for the emulated Wii remote(s).
 
 **Can I use a real Wii remote?**
+
 Wii remotes connect with Bluetooth, so you'll need a Bluetooth adapter. For pointer functionality, you'll either need a sensor bar (official, third-party or makeshift) or you'll need to set up pointer emulation. Use `!wiimote` in #bot-commands for full setup instructions. 
 
 **Do I need a Dolphinbar?**
+
 The Dolphinbar is not a requirement for Dolphin. However, for users with no existing bluetooth adapter, the Dolphinbar is a convenient Bluetooth adapter + sensor bar combo.
 
 **Can I use Joycon / Switch Procon / Dualshock / Dualsense controllers?**
+
 Middleware programs such as DS4windows and BetterJoy allow these controllers to be used with Dolphin. These programs can also make use of the DSU protocol to allow the motion sensors in these controllers to be mapped to an emulated Wii remote. Refer to https://wiki.dolphin-emu.org/index.php?title=DSU_Client for more advice.
 
 ```
 Netplay
 ```
 **How do I set up Netplay?**
+
 https://dolphin-emu.org/docs/guides/netplay-guide/
 TL;DR: Use the latest beta version, use identical dumps, use the traversal server to avoid portforwarding, and carefully read the Controller and Netplay Settings sections of the guide.
 
 **Where can I find users to Netplay with?**
+
 Use `Tools` > `Browse Netplay Sessions...` to browse Netplay sessions on the transversal server. You can also check #multiplayer or look around for dedicated multiplayer Discord servers for your game.
 
 ```
 Contributing to Dolphin
 ```
 **What should I do if I've found a bug?**
+
 First, check that it's not caused by something else. Verify your game files and disable any cheats or patches.
 If the issue persists, check if it has already been reported on our Issue Tracker: https://bugs.dolphin-emu.org/projects/emulator/issues
 If it hasn't been reported, create a new report. Follow the template provided on the issue tracker.
 
 **How do I contribute code to Dolphin?**
+
 Open a pull request with your changes here: https://github.com/dolphin-emu/dolphin/compare. New contributors are not auto-trusted, so your PR must be reviewed by a trusted contributor before further action is taken. 
 
 ```
