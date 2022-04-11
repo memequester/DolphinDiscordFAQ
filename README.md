@@ -30,13 +30,13 @@ Controllers
 The Wii remote must be configured (emulated controls of course) to use the whole screen space in Dolphin. To change the screen space, change the Total Yaw and Total Pitch in the controller settings for the emulated Wii remote(s).
 
 **Can I use a real Wii remote?**
-Yes! Wii remotes connect with Bluetooth, so you'll need a Bluetooth adapter. For pointer functionality, you'll either need a sensor bar (official, third-party or makeshift) or you'll need to set up pointer emulation. Use `!wiimote` in #bot-commands for full setup instructions. 
+Wii remotes connect with Bluetooth, so you'll need a Bluetooth adapter. For pointer functionality, you'll either need a sensor bar (official, third-party or makeshift) or you'll need to set up pointer emulation. Use `!wiimote` in #bot-commands for full setup instructions. 
 
 **Do I need a Dolphinbar?**
 The Dolphinbar is not a requirement for Dolphin. However, for users with no existing bluetooth adapter, the Dolphinbar is a convenient Bluetooth adapter + sensor bar combo.
 
 **Can I use Joycon / Switch Procon / Dualshock / Dualsense controllers?**
-Middleware programs such as DS4windows and BetterJoy allow these controllers to be used with Dolphin. These programs can also make use of the DSU protocol to allow the motion sensors in these controllers to be mapped to an emulated Wii remote.
+Middleware programs such as DS4windows and BetterJoy allow these controllers to be used with Dolphin. These programs can also make use of the DSU protocol to allow the motion sensors in these controllers to be mapped to an emulated Wii remote. Refer to https://wiki.dolphin-emu.org/index.php?title=DSU_Client for more advice.
 
 ```
 Netplay
