@@ -71,7 +71,7 @@ If it hasn't been reported, create a new report. Follow the template provided on
 Open a pull request with your changes here: https://github.com/dolphin-emu/dolphin/compare. New contributors are not auto-trusted, so your PR must be reviewed by a trusted contributor before further action is taken. 
 
 ```
-- Customisation
+Customisation
 ```
 **Where can I find User Styles? How do I enable one?**
 
